@@ -1,5 +1,13 @@
-# Maak een programma dat:
-# - een lege lijst aanmaakt
-# - drie dieren vraagt aan de user
-# - deze dieren toevoegt aan de lijst
-# - de lijst met dieren toont aan de user
+lievelingsdierlijst = []
+
+antwoord_lievelingsdierlijst_1= input("Wat is jou lievelingsdier?")
+lievelingsdierlijst.append(antwoord_lievelingsdierlijst_1)
+
+antwoord_lievelingsdierlijst_2= input("Wat is jou lievelingsdier?")
+lievelingsdierlijst.append(antwoord_lievelingsdierlijst_2)
+
+antwoord_lievelingsdierlijst_3= input("Wat is jou lievelingsdier?")
+lievelingsdierlijst.append(antwoord_lievelingsdierlijst_3)
+
+
+print(lievelingsdierlijst)

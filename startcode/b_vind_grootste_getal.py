@@ -1,3 +1,10 @@
-# Maak een lijst met getallen.
-# Schrijf een functie vind_grootste_getal die de grootste waarde uit een lijst teruggeeft.
-# Gebruik een for-loop om de grootste waarde te vinden.
+getallen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+def vind_grootste_getal():
+    grootste = 0
+    for i in range(len(getallen)):
+        if(getallen[i] > grootste):
+            grootste = getallen[i]
+
+    print(grootste)
+vind_grootste_getal()
